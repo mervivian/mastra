@@ -14,17 +14,18 @@ Mastra is a framework, but it's **unopinionated** about how you organize or colo
 A project created with the `create mastra` command looks like this:
 
 ```
-src/
-├── mastra/
-│   ├── agents/
-│   │   └── weather-agent.ts
-│   ├── tools/
-│   │   └── weather-tool.ts
-│   ├── workflows/
-│   │   └── weather-workflow.ts
-│   ├── scorers/
-│   │   └── weather-scorer.ts
-│   └── index.ts
+my-project/
+├── src/
+│   └── mastra/
+│       ├── agents/
+│       │   └── weather-agent.ts
+│       ├── tools/
+│       │   └── weather-tool.ts
+│       ├── workflows/
+│       │   └── weather-workflow.ts
+│       ├── scorers/
+│       │   └── weather-scorer.ts
+│       └── index.ts
 ├── .env.example
 ├── package.json
 └── tsconfig.json
